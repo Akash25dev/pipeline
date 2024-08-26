@@ -8,7 +8,7 @@ pipeline{
             }
             stage(build){
                    steps{
-                     sh '/home/akash/Documents/Maven/apache-maven-3.8.8/bin/mvn install'
+                     sh 'mvn install'
                    }
             }
             stage(deploy){
